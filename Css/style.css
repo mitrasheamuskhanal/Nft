@@ -17,9 +17,6 @@
 .Smallbox {
     width: 300px;
     background: hsl(216, 50%, 16%);
-
-    top: 50px;
-    right: 60px;
     padding: 25px;
     margin: 25px;
     color: white;
@@ -49,10 +46,24 @@
 }
 .asset{
     background: none;
+    display: flex;
+    justify-content: space-between;
+    
 }
 .eth{
     background: none;
+    color:hsl(178, 100%, 50%);
+    
+}
+.eth img{
+    background: none;
+    
 }
 .days{
     background: none;
+    color: hsl(215, 51%, 70%);
+}
+.days img{
+    background: none;
+    
 }
