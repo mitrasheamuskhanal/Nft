@@ -12,14 +12,16 @@
     width:100%;
 }
 .Smallbox{
-    width: 200px;
+    width: 300px;
     background: hsl(216, 50%, 16%);
-    height: 200px;
+    height: 300px;
     border-radius: 1%;
     top: 50px;
     right: 60px;
     padding: 25px;
     margin: 25px;
+    justify-content:center;
+    /* align-items:center; */
     
     
 }
@@ -27,10 +29,11 @@
     background: none;
     color: White: hsl(0, 0%, 100%);
     font-size:18px;
+    border-radius:4%
 }
 .image img{
-    width: 150px;
+    width: 200px;
     height: 150px;
-    border-radius: 2%;
+    border-radius: 4%;
     
 }
