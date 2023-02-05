@@ -1,39 +1,58 @@
-*{
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+* {
     padding: 0px;
     margin: 0px;
-    background-color:hsl(217, 54%, 11%) ;
+    background-color: hsl(217, 54%, 11%);
 }
 
-.Bigbox{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    min-height:100vh;
-    width:100%;
+.Bigbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
 }
-.Smallbox{
+
+.Smallbox {
     width: 300px;
     background: hsl(216, 50%, 16%);
-    height: 300px;
-    border-radius: 1%;
+
     top: 50px;
     right: 60px;
     padding: 25px;
     margin: 25px;
-    justify-content:center;
+    color: white;
+    border-radius: 4%;
+    /* justify-content:center; */
     /* align-items:center; */
-    
-    
 }
+
 .Smallbox p {
     background: none;
-    color: White: hsl(0, 0%, 100%);
-    font-size:18px;
-    border-radius:4%
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
 }
-.image img{
-    width: 200px;
-    height: 150px;
+
+.Smallbox h2 {
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    padding: 12px 0;
+    background: none;
+}
+
+.image img {
+    background: none;
     border-radius: 4%;
-    
+    max-width: 100%;
+    display: block;
+}
+.asset{
+    background: none;
+}
+.eth{
+    background: none;
+}
+.days{
+    background: none;
 }
