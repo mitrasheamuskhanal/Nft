@@ -3,3 +3,27 @@
     margin: 0px;
     background-color:hsl(217, 54%, 11%) ;
 }
+
+.Smallbox{
+    width: 200px;
+    background: hsl(216, 50%, 16%);
+    height: 200px;
+    border-radius: 1%;
+    top: 50px;
+    right: 60px;
+    padding: 25px;
+    margin: 25px;
+    
+    
+}
+.Smallbox p {
+    background: none;
+    color: White: hsl(0, 0%, 100%);
+    font-size:18px;
+}
+.image img{
+    width: 150px;
+    height: 150px;
+    border-radius: 2%;
+    
+}
